@@ -1,0 +1,159 @@
+
+
+body {
+    margin: 0;
+    padding: 0 3rem;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* alinha verticalmente */
+    gap: 1rem;
+    /* espaço entre logo e banner */
+  
+}
+
+.info {
+    margin-top: 1rem;
+    width: 60rem;
+    height: 10rem;
+    object-fit: cover;
+    display:inline-block;
+}
+
+
+.logo {
+    width: 8rem;
+    height: 10rem;
+    object-fit: contain;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+  
+    gap: 7rem;
+    align-items: center;
+    margin: 2rem 0;
+     border: 2px solid black;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+
+.Home {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.depoimentos-container {
+    display: inline-flex;   /* coloca todas as caixas na mesma linha */
+    flex-direction: row;    /* organiza em linha horizontal */
+    flex-wrap: nowrap;      /* impede quebrar para baixo */
+    gap: 3rem;              /* espaço entre as caixas */
+    width: 200%;
+    margin-top: 50rem;
+}
+
+.caixa {
+    display: inline-block;  /* cada caixa vira bloco lado a lado */
+    vertical-align: top;    /* alinha todas pelo topo */
+    width: 250px;           /* largura da caixa */
+    height: 280px;          /* altura da caixa */
+    border: 2px solid black; /* borda */
+    border-radius: 15px;    /* cantos arredondados */
+    padding: 20px;          /* espaço interno */
+    box-sizing: border-box; /* mantém tamanho correto */
+    margin-left: 30px;
+    margin-top: 3rem;
+}
+
+
+
+.caixa p {
+    width: auto;          /* largura da caixa */
+    height: auto;          /* altura da caixa */
+    
+    padding: 20px;  
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+    
+    
+    
+}
+.caixa1 {
+    background-image: url("viagem.jpg");
+    width: 320px;           /* largura da caixa */
+    height: 280px;  
+}
+
+.caixa2 {
+    background-image: url("praia.jpg");
+    width: 320px;           /* largura da caixa */
+    height: 280px;  
+}
+
+.caixa3 {
+    background-image: url("trilha.jpg");
+        width: 320px;           /* largura da caixa */
+    height: 280px;  
+
+    
+
+    
+}
+@media (max-width: 768px) {        /*deixar a tela do tamanho da tela do dispositivo que iráestar acessando */
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caixa {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    body {
+        padding: 10px;
+    }
+}
+.frase {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 5rem;
+    border: 1px solid black;
+
+}
