@@ -1,0 +1,20 @@
+
+@use 'variaveis';
+@mixin  border-padrao {
+    border: variaveis.$border-padrao;
+}
+
+@mixin cor-primaria {
+    color: variaveis.$cor-primaria;
+}
+@mixin cor-secundaria {
+    color: variaveis.$cor-secundaria;
+}
+
+
+@mixin espacamento-padrao() {
+  padding: variaveis.$espacamento-padrao;
+}
+@mixin espacamento-metade {
+    padding: variaveis.$espacamento-metade;
+}

@@ -1,0 +1,40 @@
+
+@use 'variaveis';
+body {
+    margin: 0;
+    padding: 0 3rem;
+    
+
+
+}
+
+
+@media (max-width: 768px) {
+    /*deixar a tela do tamanho da tela do dispositivo que iráestar acessando */
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .caixa {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    body {
+        padding: 10px;
+    }
+}

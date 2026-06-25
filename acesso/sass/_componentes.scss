@@ -1,0 +1,55 @@
+.info {
+    margin-top: 1rem;
+    width: 60rem;
+    height: 10rem;
+    object-fit: cover;
+    display: inline-block;
+}
+
+
+.logo {
+    width: 8rem;
+    height: 10rem;
+    object-fit: contain;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* alinha verticalmente */
+    gap: 1rem;
+    /* espaço entre logo e banner */
+
+}
+
+.caixa1 {
+    background-image: url("../viagem.jpg");
+    width: 320px;
+    /* largura da caixa */
+    height: 280px;
+}
+
+.caixa2 {
+    background-image: url("../praia.jpg");
+
+    width: 320px;
+    /* largura da caixa */
+    height: 280px;
+}
+
+.caixa3 {
+    background-image: url("../trilha.jpg");
+    width: 320px;
+    /* largura da caixa */
+    height: 280px;
+
+
+
+
+}

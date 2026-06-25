@@ -1,0 +1,11 @@
+
+
+
+
+@use "sass:math";
+$cor-primaria: rgb(8, 8, 8);
+$border-padrao: 2px solid $cor-primaria;
+$cor-secundaria: rgb(247, 106, 13);
+$espacamento-padrao: 20px;
+$espacamento-metade: math.div($espacamento-padrao, 2);
+
